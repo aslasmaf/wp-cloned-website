@@ -83,7 +83,7 @@
                 <a href="javascript:void(0)" class="closebtn" id="closebtn" onclick="closeNav()">&times;</a>
                 <h1>tons<span>berg</span></h1>
                 <p>Advertising</p>
-                <img src="<?php echo get_theme_file_uri('/image/adplace_blog.JPG')?>" style="widows: 100%;;">
+                <img src="<?php echo get_theme_file_uri('/image/adplace-blog.JPG')?>" style="width: 100%;padding: 0;margin: 0;">
                 <input type="text" placeholder="Search...">
                 <h2>Recent Posts</h2>
                 <ul>
@@ -118,7 +118,7 @@
                 </ul>
                 <!--Calender-->
                 <p style="color: rgb(105, 102, 102);margin: 10px;">September 2020</p>
-                <img src="image/calender.PNG" style="width: 85%;margin-bottom: 100px; margin-left: 30px;">
+                <img src="<?php echo get_theme_file_uri('/image/calender.PNG')?>" style="width: 85%;margin-bottom: 100px; margin-left: 30px;">
             </div>
         </div>
         <!--End side panel-->
